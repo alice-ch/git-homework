@@ -1,7 +1,6 @@
 def fact (n):
-    k=1
-    for i in range (n):
-        k+=1
-
-    return (k)
+    if n==1:
+        return 1
+    else :
+        return (n*fact(n-1))
 
